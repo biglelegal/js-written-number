@@ -1,6 +1,6 @@
 {
   "UseLongScale": true,
-  "baseSeparator": "i",
+  "baseSeparator": "-",
   "unitSeparator": "",
   "base": {
     "0": "zero",
