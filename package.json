@@ -4,6 +4,8 @@
   "description": "Convert numbers to words - their written form.",
   "main": "lib/index.js",
   "scripts": {
+    "push-minor": "npm version --allow-same-version minor -m \"Minor version %s\" && git push && git push --tags",
+    "push-patch": "npm version --allow-same-version patch -m \"Patch version %s\" && git push && git push --tags",
     "test": " mocha --require blanket -R mocha-spec-cov-alt"
   },
   "keywords": [
